@@ -21,7 +21,29 @@ in .env  (DB_NAME, DB_USER, DB_PASS)
 9. The app will open page in default browser, but you can go to `localhost:3000` in other browsers
     
     
+    
+### General info
+1. Main page, help and search doesn't work, because I don't have enough time to do it
+2. Replying on comments wasn't implemented because of the same reason
+3. You can just look posts, filter them, go to post page, like post/comment, edit/delete your post/comments 
+or if you have admin role, you could delete posts and comments and also you can change some user info on settings: 
+photo, login, fullname, other fields require more complicated logic, so it will be in future versions (if they will be ;) )
+      
+         
+         
+         
+
 ### SOME EXAMPLES OF ITS VIEW
 
-![изображение](https://user-images.githubusercontent.com/108219165/192091466-37b57b0d-b754-4a3f-b4ff-1cd501581cdc.png)
+![изображение](https://user-images.githubusercontent.com/108219165/198872169-004cb13f-5e3e-4fac-8bf2-2e798a167f43.png)   
+
+![изображение](https://user-images.githubusercontent.com/108219165/198872217-ab1c4d36-af54-432f-ade5-6685b8e9275a.png)
+
+![изображение](https://user-images.githubusercontent.com/108219165/198872232-6f12eafd-c261-432e-ae47-624469014b30.png)
+
+![изображение](https://user-images.githubusercontent.com/108219165/198872255-5223b08c-b6cd-48a4-9721-cf75034f6867.png)
+
+![изображение](https://user-images.githubusercontent.com/108219165/198872420-0ed3d1fb-2bf3-4960-8e7b-07fd4cf3ecea.png)
+
+
    
