@@ -1,0 +1,30 @@
+.form-check-input {
+    background-color: transparent;
+    border-color: rgb(197, 89, 195);
+    transition: all 0.5s ease-in-out;
+}
+
+.form-check-input:hover {
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: rgb(197, 89, 195);
+    background-color: transparent;
+    border-color: rgb(197, 89, 195);
+    color: rgb(246, 247, 235);
+}
+
+.form-check-input:checked[type="checkbox"] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgb(57, 62, 65)' class='bi bi-check2' viewBox='0 0 16 16'%3E%3Cpath d='M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+}
+
+.form-check-input:focus {
+    border-color: rgb(201, 114, 200);
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input:active {
+    filter: none;
+}

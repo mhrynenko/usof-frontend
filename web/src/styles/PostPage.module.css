@@ -1,0 +1,127 @@
+.main {
+    padding: 50px;
+    font-size: 16px;
+    color: rgb(57, 62, 65);
+}
+
+.secondaryText {
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+}
+
+.category {
+    background-color: rgb(57, 160, 237);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.like_btn {
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: rgb(57, 160, 237);
+    transition: all 0.4s ease-in-out;
+}
+
+.like_btn:hover {
+    color: rgb(32, 142, 226);
+}
+
+.like_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.dislike_btn {
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: rgb(183, 72, 87);
+    transition: all 0.4s ease-in-out;
+}
+
+.dislike_btn:hover {
+    color: rgb(187, 0, 25);
+}
+
+.dislike_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0px 5px 0px 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px 0px 5px;
+}
+
+.content {
+    padding: 0px 15px 0px 15px;
+}
+
+.edit_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 0px 0px 0px;
+}
+
+.edit_button {
+    font-size: 18px;
+    margin: 0px 15px 0px 0px;
+    color: rgb(194, 103, 23);
+    transition: all 0.2s ease-in-out;
+}
+
+.edit_button:hover {
+    cursor: pointer;
+    color: rgb(197, 155, 118);
+}
+
+.edit_button:active {
+    position: relative;
+    top: 1px;
+}
+
+.frame {
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    padding: .375rem .75rem;
+}
+
+.attach_cont {
+    font-size: 24px;
+}
+
+.download {
+    color: rgb(57, 160, 237);
+    transition: all 0.5s ease-in-out;
+}
+
+.download:hover {
+    color: rgb(57, 62, 65);
+}
+
+.download:active {
+    position: relative;
+    top: 1px;
+}

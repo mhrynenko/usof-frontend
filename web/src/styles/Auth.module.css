@@ -1,0 +1,82 @@
+.blur {
+    background-color: rgb(188, 170, 153);
+    margin-top: 100px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 8px;
+}
+
+.brand {
+    height: 65px;
+}
+
+.brand:active {
+    position: relative;
+    top: 1px;
+}
+
+.my_form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(57, 62, 65);
+}
+
+.input {
+    background-color: rgb(246, 247, 235, 0.5);
+    transition: all 0.5s ease-out;
+    color: rgb(57, 62, 65);
+}
+
+.input:focus {
+    background-color: rgb(246, 247, 235, 1);
+    border-color: rgb(197, 89, 195);
+    box-shadow: 0 0 0 .25rem rgba(197, 89, 195,.25);
+}
+
+.input_label {
+    font-size: 10px;
+}
+
+.action_btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    background-color: rgba(255, 252, 49, 0.5);
+    transition: all 0.4s ease-out;
+}
+
+.action_btn:hover {
+    background-color: rgba(255, 252, 49, 0.7);
+}
+
+.action_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.link {
+    color: rgb(199, 3, 195);
+    transition: all 0.4s ease-out;
+}
+
+.link:hover {
+    color: rgb(57, 62, 65);
+}
+
+.alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.close_btn {
+    position: absolute; 
+    right: 5%;
+}
+
+.close_btn:focus {
+    box-shadow: none;
+}

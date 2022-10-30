@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(197, 89, 195);
+    color: rgb(246, 247, 235);
+}
+
+.body {
+    background-color: rgb(246, 247, 235);
+    color: rgb(57, 62, 65);
+}
+
+.footer {
+    background-color: rgb(246, 247, 235);
+    color: rgb(57, 62, 65);
+}
+
+.yes_btn {
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    background-color: rgba(255, 202, 212, 0.7);
+    width: 100px;
+    transition: all 0.4s ease-out;
+}
+
+.yes_btn:hover {
+    background-color: rgb(255, 192, 204);
+}
+
+.yes_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.no_btn {
+    background-color: rgb(124, 190, 240);
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    width: 100px;
+    transition: all 0.4s ease-out;
+}
+
+.no_btn:hover {
+    background-color: rgb(57, 160, 237);
+}
+
+.no_btn:active {
+    position: relative;
+    top: 1px;
+}

@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@adminjs/express": "^5.0.0",
+    "@adminjs/sequelize": "^3.0.0",
+    "adminjs": "^6.2.3",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.3.0",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.8",
+    "objection": "^3.0.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.21.6",
+    "sequelize-auto": "^0.8.8",
+    "tslib": "^2.4.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "usof-backend",
+  "version": "1.0.0",
+  "main": "User.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
+}

@@ -1,0 +1,113 @@
+.main {
+    background: rgb(255, 252, 49, 0.2);
+    color: rgb(57, 62, 65);
+    border-radius: 15px;
+    margin: 10px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.secondaryText {
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.like_btn {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(57, 160, 237);
+}
+
+.like_btn:hover {
+    color: rgb(32, 142, 226);
+}
+
+.like_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.dislike_btn {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(183, 72, 87);
+}
+
+.dislike_btn:hover {
+    color: rgb(187, 0, 25);
+}
+
+.dislike_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.about {
+    padding: 0px 5px 0px 5px;
+}
+
+.content {
+    padding: 0px 15px 0px 15px;
+}
+
+.edit_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 15px 0px 15px;
+}
+
+.edit_button {
+    font-size: 18px;
+    margin: 0px 15px 0px 0px;
+    color: rgb(194, 103, 23);
+}
+
+.edit_button:hover {
+    cursor: pointer;
+    color: rgb(197, 155, 118);
+}
+
+.edit_button:active {
+    position: relative;
+    top: 1px;
+}
+
+.frame {
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    padding: .375rem .75rem;
+}
+
+.attach_cont {
+    font-size: 24px;
+}
+
+.download {
+    color: rgb(57, 160, 237);
+    transition: all 0.5s ease-in-out;
+}
+
+.download:hover {
+    color: rgb(57, 62, 65);
+}
+
+.download:active {
+    position: relative;
+    top: 1px;
+}

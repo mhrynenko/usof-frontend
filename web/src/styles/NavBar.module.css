@@ -1,0 +1,91 @@
+.nav {
+    background-color: rgb(197, 89, 195);
+    font-size: 16px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+}
+
+.btns:focus {
+    box-shadow: none;
+}
+
+.brand {
+    height: 65px;
+}
+
+.brand:active {
+    position: relative;
+    top: 1px;
+}
+
+.info_btns {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    color: rgb(57, 62, 65);
+    background: none;
+    border:none;
+    border-radius: 15px;
+    transition: all 0.5s ease-out;
+}
+
+.info_btns:hover {
+    border-radius: 15px;
+    background-color: rgb(197, 150, 195);
+    color: rgb(246, 247, 235);
+}
+
+.info_btns:active {
+    position: relative;
+    top: 1px;
+}
+
+.action_btns {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    background-color: rgba(255, 252, 49, 0.5);
+    transition: all 0.4s ease-out;
+}
+
+.action_btns:hover {
+    color: rgb(246, 247, 235);
+    background-color: rgba(255, 252, 49, 0.7);
+}
+
+.action_btns:active {
+    position: relative;
+    top: 1px;
+}
+
+.input {
+    width: 550px;
+}
+
+.input button {
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: rgb(57, 62, 65);
+}
+
+.input button :hover {
+    color:  rgb(246, 247, 235);
+}
+
+.input input {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.input input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    box-shadow: none; 
+} 

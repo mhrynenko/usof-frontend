@@ -1,0 +1,99 @@
+.accordion {
+    --bs-accordion-color: rgb(57, 62, 65);
+    --bs-accordion-bg: rgba(227, 227, 227, 0.281);
+}
+
+.accordion-button {
+    background-color: rgb(22, 186, 197);
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(236, 241, 245);
+    background-color: rgb(32, 163, 158);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: none;
+} 
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(236, 241, 245)'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");;
+}
+
+.form-select {
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    color: rgb(57, 62, 65);
+}
+
+.form-select:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.form-select:focus {
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.react-datepicker-wrapper {
+    display: flex;
+}
+
+.react-datepicker {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(57, 62, 65);
+    border: 1px solid #ced4da;
+}
+
+.react-datepicker__header {
+    background-color: rgba(197, 89, 195, 0.8);
+} 
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: rgb(57, 62, 65);
+}
+
+.react-datepicker__time-container .react-datepicker__time {
+    background: rgba(255, 255, 255, 0.5);
+} 
+
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover, .react-datepicker__month-text--selected:hover, .react-datepicker__month-text--in-selecting-range:hover, .react-datepicker__month-text--in-range:hover, .react-datepicker__quarter-text--selected:hover, .react-datepicker__quarter-text--in-selecting-range:hover, .react-datepicker__quarter-text--in-range:hover, .react-datepicker__year-text--selected:hover, .react-datepicker__year-text--in-selecting-range:hover, .react-datepicker__year-text--in-range:hover {
+    background-color: rgba(197, 89, 195, 0.8);
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    background-color: rgba(197, 89, 195, 0.8);
+    color: rgb(57, 62, 65);
+} 
+
+.react-datepicker__day--keyboard-selected:hover, .react-datepicker__month-text--keyboard-selected:hover, .react-datepicker__quarter-text--keyboard-selected:hover, .react-datepicker__year-text--keyboard-selected:hover {
+    background-color: rgba(197, 89, 195, 0.8);
+    color: rgb(57, 62, 65);
+} 
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    background-color: rgba(197, 89, 195, 0.8);
+    color: rgb(57, 62, 65);
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+    background-color: rgba(197, 89, 195, 0.8);
+    color: rgb(57, 62, 65);
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+    background-color: rgba(197, 89, 195, 0.8);
+    color: rgb(57, 62, 65);
+}
+
+.react-datepicker__close-icon::after {
+    background-color: rgba(197, 89, 195, 0.8);
+    transition: all 0.5s ease-in-out;
+}
+
